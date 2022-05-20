@@ -20,7 +20,7 @@ document.querySelector('form').addEventListener('submit', event => {
     //to convert to Base 64: btoa(); to convert back: atob();
     const encrypted = btoa(input.value);
     
-    document.querySelector('#encrypted-message').innerText = encrypted;
+    document.querySelector('#encrypted-message').innerText = `encrypted message: ${encrypted}`;
 
     const linkInput = document.querySelector('#link-input');
     linkInput.value = `${window.location}#${encrypted}`;
