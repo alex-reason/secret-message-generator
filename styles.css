@@ -1,0 +1,31 @@
+body {
+  background-color: #142F43;
+}
+
+.container h1 {
+  color: #FFFD95;
+  text-align: center;
+}
+
+.row {
+  margin-top: 5vh;
+}
+
+.row h3 {
+  margin-top: 0;
+  color: #142F43;
+}
+
+.row .btn {
+  background-color: #142F43;
+}
+
+.row h5 {
+  color: #3E8E7E;
+  margin-top: 20%;
+}
+
+.row h4 {
+  color: #E1E8EB;
+}
+/*# sourceMappingURL=styles.css.map */
