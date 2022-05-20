@@ -1,0 +1,31 @@
+$primary-dark: #142F43;
+$primary-light: #E1E8EB;
+$secondary-dark: #3E8E7E;
+$secondary-light: #FFFD95;
+
+body{
+    background-color: $primary-dark;
+}
+.container{
+    h1{
+        color:$secondary-light;
+        text-align:center;
+    }
+}
+.row{
+    margin-top: 5vh;
+    h3{
+        margin-top: 0;
+        color:$primary-dark;
+    }
+    .btn{
+        background-color: $primary-dark;
+    }
+    h5{
+        color: $secondary-dark;
+        margin-top: 20%;
+    }
+    h4{
+        color:$primary-light;
+    }
+}
