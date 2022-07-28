@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Secret Message Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>encrypt your message:</h1>
+    </div>
+
+    <div class="row">
+        <div class="col s8 offset-s2">
+            <div id="message-show" class="card-panel hide">
+                <h3 id="message-header">
+                    </h1>
+                    <div>
+                        <a href="./index.html">create your own secret message</a>
+                    </div>
+            </div>
+
+            <div id="message-form" class="card-panel">
+                <form>
+                    <label>Enter a Secret Message</label>
+                    <input id="message-input" />
+                    <button class="btn">
+                        Create
+                    </button>
+                </form>
+            </div>
+
+            <div id="link-form" class="card-panel hide">
+                <div>
+                    <h4>Encrypted Message:</h4>
+                    <h4 id="encrypted-message"></h4>
+                    <h5>Share this link with a friend to reveal the secret:</h5>
+                    <input id="link-input" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

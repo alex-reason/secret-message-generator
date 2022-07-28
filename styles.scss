@@ -1,0 +1,44 @@
+$primary-dark: #2b2f31;
+$primary-light: #E1E8EB;
+$secondary-dark: #3E8E7E;
+$secondary-light: #f8f8e3;
+
+body{
+    background-color: $primary-dark;
+}
+.container{
+    margin-top: 15vh;
+    h1{
+        color:$secondary-light;
+        text-align:center;
+        font-family: 'Uchen', serif;
+        font-size: 5rem;
+
+        @media only screen and (max-width: 400px){
+            font-size: 2.2rem;
+        }
+    }
+}
+.row{
+    margin-top: 10vh;
+    @media only screen and (max-width: 400px){
+        margin-top: 5vh;
+    }
+    h3{
+        margin-top: 0;
+        color:$primary-dark;
+        font-size: 2rem;
+    }
+    .btn{
+        background-color: $primary-dark;
+    }
+    h5{
+        color: $secondary-dark;
+        margin-top: 20%;
+        font-size: 1.8rem;
+    }
+    h4{
+        color:$primary-light;
+        font-size: 1.9rem;
+    }
+}
